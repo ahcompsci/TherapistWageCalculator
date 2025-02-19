@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Therapist Tiered Income Calculator</h1>
+    <div id = inputs>
+        <!-- <section>
+            <label for="Average Rate Per Visit">Average Rate Per Visit:</label>
+            <input type="text" class="textbox" id="avgrate" name="name" required minlength="1" maxlength="6" size="5"/>
+        </section> -->
+        <!-- <section>
+            <label for="hours worked">Hours Worked Per Week:</label>
+            <input type="text" class="textbox" id="hours" name="name" required minlength="1" maxlength="6" size="5"/>
+        </section>       -->
+    <section>
+        <label for="hours worked">Hours Worked Per Week:</label>
+        <input type="text" class="textbox" id="hours" name="name" required minlength="1" maxlength="6" size="5"/>
+    </section>
+    <section>
+        <label for="weeks worked">Weeks Worked Per Year:</label>
+        <input type="text" class="textbox" id="weeks" name="name" required minlength="1" maxlength="4" size="5"/>
+    </section>
+    <section>
+        <label for="tax withheld">Percent Tax Withheld (example: .30):</label>
+        <input type="text" class="textbox" id="rate" name="name" required minlength="1" maxlength="4" size="5"/>
+    </section>
+    <section>
+        <input class="styled" id="submit" type="button" value="Calculate" />    
+    </section>
+    <section>
+        <span>
+            Your Projected Annual Income:
+        </span>
+        <span id="income"></span>        
+    </section>
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
